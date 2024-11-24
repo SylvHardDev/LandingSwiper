@@ -45,3 +45,21 @@ nav a.active {
 nav a i {
   font-size: 20px;
 }
+
+.swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  object-fit: cover;
+  height: 100%;
+}
