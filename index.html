@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Modern</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="swiper.min.css" />
   </head>
   <body>
     <div class="swiper">
@@ -154,6 +155,7 @@
         <a href="#">IN</a> <a href="#">FB</a> <a href="#">TW</a>
       </div>
     </div>
+    <script src="swiper.min.js"></script>
     <script src="gsap.min.js"></script>
     <script>
       var swiper = new Swiper(".swiper", {
@@ -172,8 +174,8 @@
         },
         thumbs: {
           swiper: {
-            el: ".swiper-thubms",
-            skiderPerView: 2,
+            el: ".swiper-thumbs",
+            slidesPerView: 2,
             spaceBetween: 0,
           },
         },
